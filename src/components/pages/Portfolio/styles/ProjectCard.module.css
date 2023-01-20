@@ -1,0 +1,55 @@
+
+@media (max-width: 600px){
+
+    .project_card{
+        width: 90% !important;
+        padding-bottom: 15px;
+        margin: 10px 0 10px 0 !important;
+        border-bottom: 1px solid #333333;
+    }
+
+    .project_card p{
+        font-size: 20px;
+    }
+
+}
+
+.project_card{
+    padding: 1%;
+    width: 25%;
+    color: white;
+    margin: 2% 4% 2% 4%;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.5s;
+
+}
+
+.project_card:hover{
+    border-radius: 7%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+
+.image_container{
+
+    width: 100%;
+
+}
+
+.image{
+    border-radius: 7%;
+    width: 100%;
+}
+
+.title{
+    font-size: clamp(3vh, 6vh, 7vh); 
+
+}
+
+.text{
+    color: #bdbdbd;
+    font-size: clamp( 0.5em, 0.9em, 1.1em);
+}

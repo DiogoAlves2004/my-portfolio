@@ -1,0 +1,137 @@
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .home_content{
+        flex-direction: column;
+        transform: translate(20px, 50px) !important;
+        margin-top: 30px;
+        height: 100vh;
+        display: flex;
+        justify-content: center !important;
+        -webkit-transform: translate(20px, 50px) !important;
+        -moz-transform: translate(20px, 50px) !important;
+        -ms-transform: translate(20px, 50px) !important;
+        -o-transform: translate(20px, 50px) !important;
+}
+
+    screen{
+        background-color: #d54f09;
+    }
+
+    .text_content{
+        flex-direction: column;
+        align-items: center;
+        margin: 5%;
+    }
+    .image{
+        display: none;
+    }
+
+    .home_container{
+        height: max-content;
+        width: 100%;
+        background-color: #222222;
+    
+        display: flex;
+        align-items: center;
+
+
+    
+    
+    }
+
+
+}
+
+.home_container{
+    height: max-content;
+    width: 100%;
+    background-color: #222222;
+
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.image{
+
+    background: url(../../../../img/sun.jpg) no-repeat #d54f09;
+
+    object-fit: cover;
+    object-position: 50% 10%;
+
+    width:100%;
+    height: 100vh;
+
+}
+
+
+
+/*____________ TEXT AND CONTENT ____________*/
+
+.home_content{
+    position: relative;
+    max-width: 90vw;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between;
+    box-sizing: border-box;
+    color: white;
+    transform: translate(-13%);
+
+}
+
+
+.circle{
+    width: clamp(20vh  + 20vw , 40vh  + 40vw, 40vh  + 40vw);
+    height: clamp(20vh  + 20vw, 30vh  + 30vw, 40vh  + 40vw);
+    min-width: calc(8vh + 8vw);
+    min-height: calc(8vh + 8vw);
+    margin: 2%;
+    background-color: #919191;
+    clip-path: circle();
+    max-width: 99vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle img{
+    max-width: 99vw;
+    width: 100%;
+}
+
+.text_content{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.text_content h4{
+    color: #919191 ;
+    font-weight: 400;
+    margin-bottom: 1%;
+}
+
+
+.text_content h1{
+    font-size: clamp(1vh  + 1vw, 2vh  + 2vw, 3vh  + 3vw);
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+.text_content p{
+    text-align: center;
+    font-size: clamp( 0.5em, .9em, 1.3em);
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-bottom: 3%;
+}
