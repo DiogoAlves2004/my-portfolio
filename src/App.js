@@ -12,6 +12,10 @@ import Contact from "./components/pages/contact/Contct";
 
 function App() {
 
+  fetch(process.env.REACT_APP_API_URL || 'http://localhost:8080/api/v1')
+  .then(()=> console.log('deu certo'))
+  .catch((err)=> console.log(err))
+
   return (
     <div className="App">
 
