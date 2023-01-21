@@ -4,18 +4,13 @@ import styles from './styles/Navbar.module.css'
 //libs 
 import { Link } from 'react-router-dom'
 
-import Hamburger from 'hamburger-react'
-
 //hambueguer
 
 
 //hooks
-import React, { useState } from "react"
 
 
 function Navbar(){
-
-    const [isOpen, setOpen] = useState()
 
 
 

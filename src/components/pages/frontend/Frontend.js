@@ -5,7 +5,6 @@ import {FaReact, FaCss3Alt, FaLaptopCode } from 'react-icons/fa'
 //component
 
 //hooks
-import { useState } from 'react'
 import Navbar from '../../layout/navbar/Navbar'
 
 
@@ -13,9 +12,6 @@ import styles from './styles/Frontend.module.css'
 import ProgressBar from '../../layout/input/ProgressBar'
 
 function Home(){
-
-    const [activePage, setActivePage] = useState()
-
     
 
     return(
