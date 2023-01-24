@@ -13,12 +13,11 @@ import Button from "../../layout/input/Button";
 function Home() {
   return (
 
-      
+
       <section className={styles.home_container}>
 
       <NavbarHome />
 
-      
 
       <div className={styles.image}></div>
 

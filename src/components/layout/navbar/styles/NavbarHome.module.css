@@ -1,6 +1,6 @@
 
 @media only screen and (max-width: 800px) {
-    
+
     .list{
         display: flex;
         flex-direction: row;
@@ -29,7 +29,6 @@
 
     /* alert */
     height: 10%;
-   
 
 }
 
@@ -61,8 +60,10 @@
     color: white;
     text-transform: capitalize;
     text-decoration: none;
+    transition: all 0.2s ease-in;
 }
-.item a:hover {
+.item a:hover,
+.item a:active {
     color: #000000;
     background-color: #d54f09;
 

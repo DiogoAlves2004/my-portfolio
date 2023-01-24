@@ -14,32 +14,40 @@
         -moz-transform: translate(20px, 50px) !important;
         -ms-transform: translate(20px, 50px) !important;
         -o-transform: translate(20px, 50px) !important;
-}
-
-    screen{
-        background-color: #d54f09;
     }
+
+    .image{
+
+        transform: rotate(90deg) translate(-46px , 16px);
+        position: absolute;
+        width: 50vh !important;
+        height: 100vw !important;
+
+    }
+
 
     .text_content{
         flex-direction: column;
         align-items: center;
         margin: 5%;
     }
-    .image{
-        display: none;
+
+    .text_content p{
+
+        text-align: center;
+
     }
+    
 
     .home_container{
         height: max-content;
         width: 100%;
         background-color: #222222;
-    
+
         display: flex;
         align-items: center;
 
 
-    
-    
     }
 
 
@@ -129,7 +137,6 @@
 }
 
 .text_content p{
-    text-align: center;
     font-size: clamp( 0.5em, .9em, 1.3em);
     font-weight: 400;
     font-family: 'Poppins';
