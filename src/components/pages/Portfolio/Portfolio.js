@@ -45,16 +45,16 @@ function Portfolio(){
                     text='
                         Um dos meus primeiros grandes projetos foi esse portfolio, provavelmente em algum tempo ele deve ser atualizado com as novas tecnologias que estou aprendendo, mas acredito que seu design e sua interface sejam agradavei e responsivos a todos os tipos de dispositivo, eu tive uma grande dedicação em fazer isso possivel
                     '
-                    gitLink='https://github.com/DiogoAlves2004/project-react-portfolio'
+                    gitLink='https://diogoalves.netlify.app/'
                 />
 
                 <ProjectCard
                     image={Project2}
-                    title='Movies Base'
+                    title='D-movies'
                     text='
-                        Meu proximo grande projeto para este portifolio ainda em produção. Imagine um lugar aonde voce podera consultar todo e qualquer filme que deseja, saber seus atores, suas notas, e aonde foi filmado. Essa sera a Movies Base
+                            O D-movies, serviu para mostrar minhas habilidades em consumo de APIs e criação de layouts, o porjeto ainda esta em desenvolvimento mas essa e a primeira versão estavel. Nele você consegue consultar a nota e a descrição de qualquer filme serie ou pessoa listada no TMDB
                     '
-                    gitLink='https://github.com/DiogoAlves2004/project-react-portfolio'
+                    gitLink='https://d-movies.netlify.app/'
                 />
 
 

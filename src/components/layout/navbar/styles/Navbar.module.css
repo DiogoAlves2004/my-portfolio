@@ -25,6 +25,14 @@
         display: flex;
     }
 
+    .navbar{
+        top: 0 !important;
+        right: 0 !important;
+        transform: scale(1) !important;
+
+    }
+
+
 }
 
 
@@ -51,6 +59,7 @@
     /* alert */
     height: 10%;
 
+    transform: scale(1.1) !important;
 
 }
 
@@ -88,10 +97,11 @@
 .item a:active {
     color: #000000;
     background-color: #d54f09;
-
 }
 
-
+.item:hover{
+    transform: scale(1.1);
+}
 
 
 
