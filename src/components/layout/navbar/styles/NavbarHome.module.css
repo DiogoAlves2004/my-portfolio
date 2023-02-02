@@ -12,20 +12,32 @@
 
     .nav{
         margin-top: 5px;
+        
+    }
+
+    .navbar{
+        top: 0;
+        height: 140px !important;
+        background: rgb(34,34,34);
+        background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(34,34,34,0.4654236694677871) 50%, rgba(34,34,34,0) 100%);
+
     }
 
 
 }
 
 .navbar {
-    float: right;
-    position: absolute;
+
+
+
+
+    position: fixed;
     top: 0;
     right: 0;
     z-index: 10;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+
+
+
 
     /* alert */
     height: 10%;
@@ -44,7 +56,10 @@
 }
 
 .item {
+    border-radius: 10px;
     margin-right: 1em;
+    border: 2px solid white;
+    margin: .5em;
 }
 
 .item a {

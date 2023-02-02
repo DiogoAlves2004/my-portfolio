@@ -9,9 +9,14 @@ import NavbarHome from "../../layout/navbar/NavbarHome";
 
 //hooks
 import Button from "../../layout/input/Button";
+import Typewriter from "typewriter-effect";
+
 
 function Home() {
   return (
+
+
+    
 
 
       <section className={styles.home_container}>
@@ -30,7 +35,25 @@ function Home() {
 
         <div className={styles.text_content}>
           <h4>Frontend Developer</h4>
-          <h1>Diogo Alves</h1>
+
+
+          <h1>
+              <Typewriter
+      
+                onInit={(typewriter)=> {
+
+                typewriter
+                
+                  .typeString("Diog")
+                    
+                  .pauseFor(10)
+                  .deleteAll()
+                  .typeString("Diogo Alves")
+                  .start();
+                  }}
+                />
+            </h1>
+
           <p>
             Desenvolvedor Front-end em React.js, JavaScript, TypeScript, consumo
             de APIs REST. Apaixonado pelo desenvolvimento de componentes

@@ -1,6 +1,7 @@
 
 //img and icons
 import Project1 from '../../../img/projects_images/project1.png'
+import Project2 from '../../../img/projects_images/project2.png'
 
 //component
 
@@ -48,7 +49,7 @@ function Portfolio(){
                 />
 
                 <ProjectCard
-                    image={Project1}
+                    image={Project2}
                     title='Movies Base'
                     text='
                         Meu proximo grande projeto para este portifolio ainda em produção. Imagine um lugar aonde voce podera consultar todo e qualquer filme que deseja, saber seus atores, suas notas, e aonde foi filmado. Essa sera a Movies Base

@@ -4,6 +4,8 @@
 @media only screen and (max-width: 600px) {
 
     .home_content{
+        position: fixed !important;
+        top: -5%;
         flex-direction: column;
         transform: translate(20px, 50px) !important;
         margin-top: 30px;
@@ -18,10 +20,9 @@
 
     .image{
 
-        transform: rotate(90deg) translate(-46px , 16px);
-        position: absolute;
-        width: 50vh !important;
-        height: 100vw !important;
+        transform: translate(0px , 8vh);
+        position: fixed;
+        width: 100vw !important;
 
     }
 
@@ -39,7 +40,10 @@
     }
     
 
+
     .home_container{
+
+
         height: max-content;
         width: 100%;
         background-color: #222222;
@@ -48,6 +52,11 @@
         align-items: center;
 
 
+    }
+
+    .circle{
+        width: clamp(20vh  + 20vw , 15vh  + 20vw, 40vh  + 40vw) !important;
+        height: auto !important;
     }
 
 
@@ -116,7 +125,6 @@
 }
 
 .text_content{
-    background-color: #222222;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -143,3 +151,11 @@
     font-style: normal;
     margin-bottom: 3%;
 }
+
+.button_container{
+
+}
+
+
+
+
