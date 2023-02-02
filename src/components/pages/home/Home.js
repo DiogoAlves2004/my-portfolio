@@ -2,7 +2,7 @@
 import styles from "./styles/Home.module.css";
 
 //img
-import Perfil from '../../../img/perfil3.png'
+import Perfil from '../../../img/perfil5.jpeg'
 //component
 
 import NavbarHome from "../../layout/navbar/NavbarHome";
