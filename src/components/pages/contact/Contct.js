@@ -40,7 +40,9 @@ function Contact() {
                     <FaPhone />
                 </div>
                 <div className={styles.text_content}>
-                    <h3>+55 &#10096; 31 &#10097; 9 9736-4225</h3>
+                   <h3> 
+                    <a href="https://api.whatsapp.com/send?phone=5531997364225&text=Tenho%20interesse%20em%20seu%20curriculo%20como%20programador!" target='_blank'>+55 &#10096; 31 &#10097; 9 9736-4225</a>
+                   </h3>
                     <p>
                         Meu número pessoal, também disponível  pelo whatsapp
                     </p>
