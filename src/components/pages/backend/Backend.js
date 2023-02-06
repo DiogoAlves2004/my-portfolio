@@ -61,9 +61,9 @@ function Home(){
                             </div>
 
                             <div className={styles.text_content}>
-                                <h3>PHP</h3>
+                                <h3>SQL | MySql</h3>
                                 <p>
-                                    Tenho habilidades medias no PHP, estou comecando a etudar para  no futuro me tornar FullStack, gosto desua Sintaxe bem definida e simples. Atualmente, estudo a arquitetura MVC para poder avançar no backend
+                                    Aprendi o basico de MySql, sei fazer o CRUD em um banco de dados sql simples
                                 </p>
                             </div>
                         </li>

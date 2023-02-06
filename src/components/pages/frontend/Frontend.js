@@ -58,7 +58,7 @@ function Home(){
                             </div>
 
                             <div className={styles.text_content}>
-                                <h3>PHP</h3>
+                                <h3>React.js</h3>
                                 <p>
                                     Como principal framework/lib do mercado, o react.js não pode ficar de fora do meu portifolio de habilidades, tenho dominio medio e estou a cada dia me aprofundado mais na criação de interfaces reutilizaveis
                                 </p>
