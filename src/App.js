@@ -4,10 +4,12 @@ import './App.css'
 
 //pages
 import Home from "./components/pages/home/Home";
-import Frontend from './components/pages/frontend/Frontend'
-import Backend from './components/pages/backend/Backend'
-import Portfolio from './components/pages/Portfolio/Portfolio'
+import Frontend from './components/pages/frontend/Frontend';
+import Backend from './components/pages/backend/Backend';
+import Portfolio from './components/pages/Portfolio/Portfolio';
 import Contact from "./components/pages/contact/Contct";
+import Mobile from "./components/pages/mobile/Mobile";
+
 
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
     <Route path="/backend" element={<Backend />} />
     <Route path="/portfolio" element={<Portfolio />} />
     <Route path="/contact" element={<Contact />} />
+    <Route path="/mobile" element={<Mobile />} />
+
     </Routes>
 
 

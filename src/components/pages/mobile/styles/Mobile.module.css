@@ -23,8 +23,6 @@
 
         margin: 10px;
         font-weight: bold;
-        font-size: 20px !important;
-
     }
 
     .item,
@@ -47,11 +45,8 @@
     .text_content{
         display: flex;
         flex-wrap: wrap;
-        margin-top: 10px;
-    }
-
-    .text_content{
         font-size: 20px !important;
+        margin-top: 10px;
     }
 
 }
@@ -118,7 +113,8 @@
     color: white;
     margin-left: 25%;
     white-space: nowrap;
-    font-size: clamp(1vh + 1vw, 1.2vh + 1.2vw, 1.5vh + 1.5vw);
+    font-size: clamp(1vh, 3vh, 6vh);
+
     font-weight: bold;
 }
 
@@ -140,8 +136,6 @@
 .right_content{
     width: 50%;
     max-width: 50%;
-    display: flex;
-    align-items: center;
 
 
 }
@@ -167,7 +161,7 @@
 
 .left_content li div{
         color: white;
-        font-size: clamp( 0.5em, 1em, 1.3em);  
+        font-size: clamp( 0.5em, 1em, 1.3em);
 }
 .left_content li div h3{
     margin-left: 0;
@@ -177,18 +171,6 @@
 .text_content{
     margin-left: 5%;
     width: 70%;
-}
-
-.text_content a{
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-    white-space: pre-wrap;
-    transition: all 0.5s;
-}
-
-.text_content a:hover{
-    color: #d54f09;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -237,18 +219,14 @@
 
 /* progress itens */
 
-.map{
-    width: 40%;
-    height: 50%;
+.progress_container{
+
 }
 
-.map1{
-    width: 100%;
-    height: 100%;
+.progress_item{
+    margin: 4%;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    font-size: clamp( .6vh + .6vw , 1vh + 1vw , 1vh + 1vw );
 }
-
-.map2{
-    width: 200%;
-    height: 100%;
-}
-

@@ -1,6 +1,6 @@
 
 //img and icons
-import {FaReact, FaCss3Alt, FaLaptopCode } from 'react-icons/fa'
+import {FaReact, FaCss3Alt, FaLaptopCode, FaRegGrinTongueSquint } from 'react-icons/fa'
 
 //component
 
@@ -44,7 +44,7 @@ function Home(){
                             <div className={styles.text_content}>
                                 <h3>Web Developer</h3>
                                 <p>
-                                    Domino das principais ferramentas e tecnologias atuais para criação e desenvolvimento de aplocações web: JavaScript, CSS, Sass, Html, Bootstrap, React...
+                                    Domino das principais ferramentas e tecnologias atuais para criação e desenvolvimento de aplicações web: JavaScript, TypeScript, CSS, Sass, Html, Bootstrap, React, Next.js...
                                 </p>
                             </div>
                         </li>
@@ -60,25 +60,46 @@ function Home(){
                             <div className={styles.text_content}>
                                 <h3>React.js</h3>
                                 <p>
-                                    Como principal framework/lib do mercado, o react.js não pode ficar de fora do meu portifolio de habilidades, tenho dominio medio e estou a cada dia me aprofundado mais na criação de interfaces reutilizaveis
+                                    Como principal framework/lib do mercado, o React.js não pode ficar de fora do meu portifolio de habilidades, tenho grande dominio e estou a cada dia me aprofundado mais na criação de interfaces responsivas e intuitivas
                                 </p>
                             </div>
                         </li>
 
                         <li className={styles.left_content_item}>
 
-                        <div className={styles.icon_container}>
+                            <div className={styles.icon_container}>
 
-                            <FaCss3Alt />
+                                <FaCss3Alt />
 
-                        </div>
+                            </div>
 
-                        <div className={styles.text_content}>
-                            <h3>CSS, Sass</h3>
-                            <p>
-                                A responsividade de um site diz muito de como ele foi feito, um dos meus maiores aliados sempre foi o Css/Sass, com a estilização dos componentes posso deixar a UI simples, funcional e fluida
-                            </p>
-                        </div>
+                            <div className={styles.text_content}>
+                                <h3>CSS, SASS, CSS-IN-JS</h3>
+                                <p>
+                                    Tenho grande dominio sobre todas as principais ferramentas de estilização da web, o CSS, SASS e o CSS-IN-JS
+                                </p>
+                            </div>
+
+                        </li>
+
+
+                        <li className={styles.left_content_item}>
+
+                            <div className={styles.icon_container}>
+
+                                <FaRegGrinTongueSquint />
+
+                            </div>
+
+                            <div className={styles.text_content}>
+                                <h3>Soft Skills</h3>
+                                <p>
+                                    Comunicação, Colaboração, Organização, Inteligência emocional, Capacidade de resolver problemas <br/>
+                                    Clean code, Mobile First, Metodologias Ágeis
+
+                                </p>
+                            </div>
+
                         </li>
 
                         </ul>

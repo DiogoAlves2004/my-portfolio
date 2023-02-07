@@ -23,6 +23,10 @@ return(
             </li>
 
             <li className={styles.item}>
+                        <Link to='/mobile'>Mobile</Link>
+                    </li>
+
+            <li className={styles.item}>
                 <Link to='/portfolio'>Portifolio</Link>
             </li>
 

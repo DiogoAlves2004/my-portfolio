@@ -1,6 +1,8 @@
 
 //img and icons
 import {FaPhp, FaDatabase} from 'react-icons/fa'
+import {SiMongodb} from 'react-icons/si'
+
 
 //component
 
@@ -47,7 +49,7 @@ function Home(){
                             <div className={styles.text_content}>
                                 <h3>PHP</h3>
                                 <p>
-                                    Tenho habilidades medias no PHP, estou comecando a etudar para  no futuro me tornar FullStack, gosto de sua Sintaxe bem definida e simples. Atualmente, estudo a arquitetura MVC para poder avançar no backend
+                                    Ja possuo conhecimento da sintaxe da linguagem PHP, estou comecando a etudar para  no futuro me tornar FullStack, gosto de sua estrutura bem definida e simples. Atualmente, estudo a arquitetura MVC para poder avançar no backend
                                 </p>
                             </div>
                         </li>
@@ -63,7 +65,7 @@ function Home(){
                             <div className={styles.text_content}>
                                 <h3>SQL | MySql</h3>
                                 <p>
-                                    Aprendi o basico de MySql, sei fazer o CRUD em um banco de dados sql simples
+                                    Aprendi o basico de MySql, sei fazer o CRUD com a lingagem sql
                                 </p>
                             </div>
                         </li>
@@ -92,7 +94,7 @@ function Home(){
 
                     </ul>
 
-
+                    
 
                 </div>
             </div>

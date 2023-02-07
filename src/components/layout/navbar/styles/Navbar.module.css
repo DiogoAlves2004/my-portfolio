@@ -99,7 +99,8 @@
     background-color: #d54f09;
 }
 
-.item:hover{
+.item:hover,
+.item:active{
     transform: scale(1.1);
 }
 

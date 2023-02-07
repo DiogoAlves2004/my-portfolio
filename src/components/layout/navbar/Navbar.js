@@ -40,6 +40,11 @@ return(
                     <li className={styles.item}>
                         <Link to='/backend'>Back-end</Link>
                     </li>
+
+                    <li className={styles.item}>
+                        <Link to='/mobile'>Mobile</Link>
+                    </li>
+                    
                     <li className={styles.item}>
                         <Link to='/portfolio'>Portifolio</Link>
                     </li>
@@ -47,6 +52,7 @@ return(
                     <li className={styles.item}>
                         <Link to='/contact'>Contato</Link>
                     </li>
+
                 </ul>
             </div>
             
