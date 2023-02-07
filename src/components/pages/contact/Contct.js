@@ -30,7 +30,7 @@ function Contact() {
                 <div className={styles.text_content}>
                     <h3><a href="https://github.com/DiogoAlves2004" target='_blank'>Link para: GitHub </a><FaExternalLinkAlt/></h3>
                     <p>
-                        Meu github pessoal, para voce olhar os meus projetos
+                        Meu github pessoal, para você olhar os meus projetos
                     </p>
                 </div>
                 </li>
@@ -44,7 +44,7 @@ function Contact() {
                     <a href="https://api.whatsapp.com/send?phone=5531997364225&text=Tenho%20interesse%20em%20seu%20curriculo%20como%20programador!" target='_blank'>Link para: +55 &#10096; 31 &#10097; 9 9736-4225 </a><FaExternalLinkAlt/>
                    </h3>
                     <p>
-                        Meu número pessoal, também disponível  pelo whatsapp
+                        Meu número pessoal, também disponível pelo whatsapp
                     </p>
                 </div>
                 </li>

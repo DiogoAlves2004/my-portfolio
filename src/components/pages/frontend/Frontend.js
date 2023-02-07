@@ -44,7 +44,7 @@ function Home(){
                             <div className={styles.text_content}>
                                 <h3>Web Developer</h3>
                                 <p>
-                                    Domino das principais ferramentas e tecnologias atuais para criação e desenvolvimento de aplicações web: JavaScript, TypeScript, CSS, Sass, Html, Bootstrap, React, Next.js...
+                                    Dominío das principais ferramentas e tecnologias atuais para criação e desenvolvimento de aplicações web: JavaScript, TypeScript, CSS, Sass, Html, Bootstrap, React, Next.js...
                                 </p>
                             </div>
                         </li>
@@ -60,7 +60,7 @@ function Home(){
                             <div className={styles.text_content}>
                                 <h3>React.js</h3>
                                 <p>
-                                    Como principal framework/lib do mercado, o React.js não pode ficar de fora do meu portifolio de habilidades, tenho grande dominio e estou a cada dia me aprofundado mais na criação de interfaces responsivas e intuitivas
+                                    Como principal framework/lib do mercado, o React.js não pode ficar de fora do meu portifolio de habilidades, tenho grande Dominío e estou a cada dia me aprofundado mais na criação de interfaces responsivas e intuitivas
                                 </p>
                             </div>
                         </li>
@@ -76,7 +76,7 @@ function Home(){
                             <div className={styles.text_content}>
                                 <h3>CSS, SASS, CSS-IN-JS</h3>
                                 <p>
-                                    Tenho grande dominio sobre todas as principais ferramentas de estilização da web, o CSS, SASS e o CSS-IN-JS
+                                    Tenho grande Dominío sobre todas as principais ferramentas de estilização da web, o CSS, SASS e o CSS-IN-JS
                                 </p>
                             </div>
 

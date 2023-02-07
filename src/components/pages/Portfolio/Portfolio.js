@@ -41,9 +41,9 @@ function Portfolio(){
 
                 <ProjectCard
                     image={Project1}
-                    title='Projeto Portifolio'
+                    title='Projeto PortifÓlio'
                     text='
-                        Um dos meus primeiros grandes projetos foi esse portfolio, provavelmente em algum tempo ele deve ser atualizado com as novas tecnologias que estou aprendendo, mas acredito que seu design e sua interface sejam agradavei e responsivos a todos os tipos de dispositivo, eu tive uma grande dedicação em fazer isso possivel
+                        Um dos meus primeiros grandes projetos foi esse portfÓlio, provavelmente em algum tempo ele deve ser atualizado com as novas tecnologias que estou aprendendo, mas acredito que seu design e sua interface sejam agradavei e responsivos a todos os tipos de dispositivo, eu tive uma grande dedicação em fazer isso possível
                     '
                     gitLink='https://diogoalves.netlify.app/'
                 />
@@ -52,7 +52,7 @@ function Portfolio(){
                     image={Project2}
                     title='D-movies'
                     text='
-                            O D-movies, serviu para mostrar minhas habilidades em consumo de APIs e criação de layouts, o porjeto ainda esta em desenvolvimento mas essa e a primeira versão estavel. Nele você consegue consultar a nota e a descrição de qualquer filme serie ou pessoa listada no TMDB
+                            O D-movies, serviu para mostrar minhas habilidades em consumo de APIs e criação de layouts, o porjeto ainda esta em desenvolvimento mas essa é a primeira versão estavel. Nele você consegue consultar a nota e a descrição de qualquer filme, serie ou pessoa listada no TMDB
                     '
                     gitLink='https://d-movies.netlify.app/'
                 />

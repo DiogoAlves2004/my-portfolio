@@ -57,12 +57,12 @@ function Home() {
           <p>
             Desenvolvedor Front-end em React.js, JavaScript, TypeScript, consumo
             de APIs REST. Apaixonado pelo desenvolvimento de componentes
-            reutilizáveis. Também amo jogos e academia. Futuro graduado em Analise
+            reutilizáveis. Também amo jogos e academia. Futuro graduado em Análise
             e desenvovlimento de sistemas
           </p>
 
           <div className={styles.button_container}>
-            <Button text='Portifolio' to='portfolio' type='a' />
+            <Button text='Portifólio' to='portfolio' type='a' />
 
             <Button text='Contato' to='contact' type='b' />
           </div>

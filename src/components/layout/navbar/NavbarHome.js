@@ -27,7 +27,7 @@ return(
                     </li>
 
             <li className={styles.item}>
-                <Link to='/portfolio'>Portifolio</Link>
+                <Link to='/portfolio'>Portifólio</Link>
             </li>
 
             

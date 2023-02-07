@@ -49,7 +49,7 @@ function Home(){
                             <div className={styles.text_content}>
                                 <h3>PHP</h3>
                                 <p>
-                                    Ja possuo conhecimento da sintaxe da linguagem PHP, estou comecando a etudar para  no futuro me tornar FullStack, gosto de sua estrutura bem definida e simples. Atualmente, estudo a arquitetura MVC para poder avançar no backend
+                                    Já possuo conhecimento da linguagem PHP, estou comecando a etudar para  no futuro me tornar FullStack, gosto de sua estrutura bem definida e simples. Atualmente, estudo a arquitetura MVC para poder avançar no backend
                                 </p>
                             </div>
                         </li>
@@ -65,7 +65,7 @@ function Home(){
                             <div className={styles.text_content}>
                                 <h3>SQL | MySql</h3>
                                 <p>
-                                    Aprendi o basico de MySql, sei fazer o CRUD com a lingagem sql
+                                    Aprendi o básico de MySql, sei fazer o CRUD com a linguagem SQL
                                 </p>
                             </div>
                         </li>
