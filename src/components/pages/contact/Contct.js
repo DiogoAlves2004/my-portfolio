@@ -1,5 +1,5 @@
 //img and icons
-import { FaGithub, FaPhone, FaMapSigns, FaMailBulk } from "react-icons/fa";
+import { FaGithub, FaPhone, FaMapSigns, FaMailBulk, FaExternalLinkAlt } from "react-icons/fa";
 
 //component
 
@@ -28,7 +28,7 @@ function Contact() {
                 </div>
 
                 <div className={styles.text_content}>
-                    <h3><a href="https://github.com/DiogoAlves2004" target='_blank'>Link para: GitHub</a>🔗</h3>
+                    <h3><a href="https://github.com/DiogoAlves2004" target='_blank'>Link para: GitHub </a><FaExternalLinkAlt/></h3>
                     <p>
                         Meu github pessoal, para voce olhar os meus projetos
                     </p>
@@ -41,7 +41,7 @@ function Contact() {
                 </div>
                 <div className={styles.text_content}>
                    <h3> 
-                    <a href="https://api.whatsapp.com/send?phone=5531997364225&text=Tenho%20interesse%20em%20seu%20curriculo%20como%20programador!" target='_blank'>Link para: +55 &#10096; 31 &#10097; 9 9736-4225</a>🔗
+                    <a href="https://api.whatsapp.com/send?phone=5531997364225&text=Tenho%20interesse%20em%20seu%20curriculo%20como%20programador!" target='_blank'>Link para: +55 &#10096; 31 &#10097; 9 9736-4225 </a><FaExternalLinkAlt/>
                    </h3>
                     <p>
                         Meu número pessoal, também disponível  pelo whatsapp
@@ -67,7 +67,7 @@ function Contact() {
                 </div>
                 <div className={styles.text_content}>
                     <h3>
-                    <a href="mailto:alvessilva52@gmail.com?subject=Acabei de ver o seu portifolio&body=Ola, analisei seu portifolio e vejo que voce tem um grande potencial, quando puder me retorne por aqui!">Enviar: alvessilva524@gmail.com</a>🔗
+                    <a href="mailto:alvessilva52@gmail.com?subject=Acabei de ver o seu portifolio&body=Ola, analisei seu portifolio e vejo que voce tem um grande potencial, quando puder me retorne por aqui!">Enviar: alvessilva524@gmail.com </a><FaExternalLinkAlt/>
                     </h3>
                     <p>
                         Esse e o meu e-mail, caso tenha gostado do meu trabalho ficarei feliz em ver o seu nome na minha caixa de mensagens &#10096; aberto a críticas construtivas e a propostas de trabalho &#10097;
