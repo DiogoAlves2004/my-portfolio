@@ -117,32 +117,32 @@ function Home(){
 
                         <li className={styles.progress_item}>
                             <label>HTML</label>
-                            <ProgressBar progress='progress90' />
+                            <ProgressBar progress='progress95' />
                         </li>
 
                         <li className={styles.progress_item}>
                             <label>CSS</label>
-                            <ProgressBar progress='progress80' />
+                            <ProgressBar progress='progress90' />
                         </li>
 
                         <li className={styles.progress_item}>
                             <label>JavaScript</label>
-                            <ProgressBar progress='progress80' />
+                            <ProgressBar progress='progress95' />
                         </li>
 
                         <li className={styles.progress_item}>
                             <label>React</label>
-                            <ProgressBar progress='progress60' />
+                            <ProgressBar progress='progress95' />
                         </li>
 
                         <li className={styles.progress_item}>
                             <label>Figma</label>
-                            <ProgressBar progress='progress50' />
+                            <ProgressBar progress='progress75' />
                         </li>
 
                         <li className={styles.progress_item}>
                             <label>Consumo de Api</label>
-                            <ProgressBar progress='progress60' />
+                            <ProgressBar progress='progress95' />
                         </li>
 
                     </ul>

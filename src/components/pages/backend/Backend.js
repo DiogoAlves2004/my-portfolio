@@ -84,12 +84,12 @@ function Home(){
 
                         <li className={styles.progress_item}>
                             <label>PHP</label>
-                            <ProgressBar progress='progress50' />
+                            <ProgressBar progress='progress70' />
                         </li>
 
                         <li className={styles.progress_item}>
                             <label>MySql</label>
-                            <ProgressBar progress='progress45' />
+                            <ProgressBar progress='progress70' />
                         </li>
 
                     </ul>
