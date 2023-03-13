@@ -1,6 +1,6 @@
 
 //img and icons
-import {FaPhp, FaDatabase} from 'react-icons/fa'
+import {FaPhp, FaDatabase ,FaNodeJs} from 'react-icons/fa'
 import {SiMongodb} from 'react-icons/si'
 
 
@@ -69,6 +69,24 @@ function Home(){
                                 </p>
                             </div>
                         </li>
+
+                        <li className={styles.left_content_item}>
+
+                            <div className={styles.icon_container}>
+
+                                <FaNodeJs />
+
+                            </div>
+
+                            <div className={styles.text_content}>
+                                <h3>Node.js</h3>
+                                <p>
+                                    Criação de APIs e back-end em node.js
+                                </p>
+                            </div>
+                        </li>
+
+
                     </ul>
 
                 </div>
@@ -84,13 +102,20 @@ function Home(){
 
                         <li className={styles.progress_item}>
                             <label>PHP</label>
-                            <ProgressBar progress='progress70' />
+                            <ProgressBar progress='progress60' />
                         </li>
 
                         <li className={styles.progress_item}>
                             <label>MySql</label>
                             <ProgressBar progress='progress70' />
                         </li>
+
+                        
+                        <li className={styles.progress_item}>
+                            <label>Node.js</label>
+                            <ProgressBar progress='progress75' />
+                        </li>
+
 
                     </ul>
 

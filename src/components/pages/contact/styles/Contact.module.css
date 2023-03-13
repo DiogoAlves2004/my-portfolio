@@ -187,7 +187,15 @@
     transition: all 0.5s;
 }
 
-.text_content a:hover{
+
+.text_content svg{
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.text_content:hover a,
+.text_content:hover svg
+{
     color: #d54f09;
 }
 

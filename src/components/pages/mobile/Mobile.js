@@ -62,7 +62,7 @@ function Home(){
                     <ul className={styles.progress_container}>
                         <li className={styles.progress_item}>
                             <label>React Native</label>
-                            <ProgressBar progress='progress50' />
+                            <ProgressBar progress='progress70' />
                         </li>
                     </ul>
 
